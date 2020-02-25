@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for field in obj %}
+<p>
+    <label style="color: red">{{ field.label }}</label>
+    {{ field }}
+</p>
+{% endfor %}
+</body>
+</html>
